@@ -36,7 +36,7 @@ section ul li a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 16px;
+    padding: 12px;
     justify-content: center;
     gap: 10px;
     background: #F5F1F1;
