@@ -23,21 +23,18 @@ body {
 
 main {
     display: grid;
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
 }
 
 section {
-    position: relative;
+
     box-sizing: border-box;
     padding: 10px;
 }
 
 section ul li a {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    text-decoration: none;
-    line-height: 29px;
-    color: #2E2828;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -47,4 +44,13 @@ section ul li a {
     background: #F5F1F1;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    text-decoration: none;
+}
+
+span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #2E2828;
 }
