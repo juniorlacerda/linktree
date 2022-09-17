@@ -29,7 +29,6 @@ main {
 }
 
 section {
-
     box-sizing: border-box;
     padding: 10px;
 }
@@ -38,7 +37,7 @@ section ul li a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 20px;
+    padding: 16px;
     justify-content: center;
     gap: 10px;
     background: #F5F1F1;
@@ -51,6 +50,5 @@ span {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-
     color: #2E2828;
 }
