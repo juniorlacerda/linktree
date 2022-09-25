@@ -2,15 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 ul {
     list-style: none;
     line-height: 29px;
-}
-
-body * {
-    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -31,12 +28,18 @@ header div {
 }
 
 .profile-bg img {
-    height: calc(120px +32px);
+    display: inline;
+    max-width: 500px;
+    width: 90%;
 }
 
 .profile-image img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
     border-radius: 50%;
-    width: 120px;
+    width: 110px;
     border: 4px solid #FAFAFA;
 }
 
